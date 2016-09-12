@@ -5,6 +5,7 @@ module.exports = function(app){
 		var productsDAO = new app.db.ProductsDAO(connection);
 
 		productsDAO.list(function(err, result){
+			console.log(result);
 			res.format({
 				html: function(){
 					res.render('produtos/lista', {lista:result});	
@@ -39,6 +40,7 @@ module.exports = function(app){
 
 		productsDAO.save(produtos, function(err, result){
 			res.redirect('/produtos');
+			console.log(err);
 		});
 	})
 }

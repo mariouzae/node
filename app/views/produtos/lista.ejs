@@ -9,12 +9,14 @@
 		<tr>
 			<th>ID</th>
 			<th>NOME</th>
+			<th>PAGES</th>
 		</tr>
 		
 		<%for(var i=0; i<lista.length; i++){%>
 			<tr>
-				<td><%=lista[i].id%></td>
-				<td><%=lista[i].description%></td>	
+				<td><%=lista[i].ID%></td>
+				<td><%=lista[i].DESCRIPTION%></td>
+				<td><%=lista[i].PAGES%></td>
 			</tr>
 		<%}%>
 	</table>
