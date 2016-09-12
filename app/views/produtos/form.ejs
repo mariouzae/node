@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<title>Nodejs</title>
+</head>
+<body>
+	<div class="errors">
+		<%if(errors){%>
+		<ul>
+			<%for(var i=0; i<errors.length; i++){%>
+				<li><%=errors[i].param%> - <%=errors[i].msg%></li>
+			<%}%>
+		</ul>
+		<%}%>
+	</div>
+	<form method="POST" action="/produtos">
+		<div>
+			<label for"description">Descrição:</label>
+			<input type="text" id="description" name="description" value='<%=produto.description%>'placeholder="nome do livro"/>
+		</div>
+		<div>
+			<label for"pages">Pages:</label>
+			<input type="text" id="pages" name="pages" value='<%=produto.pages%>' placeholder="páginas do livro"/>
+		</div>
+		<div>
+			<button type="submit" id="btn_submit" value="enviar">Enviar</button>
+		</div>
+	</form>
+</body>
+</html>
