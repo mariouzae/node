@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<title>Nodejs</title>
+</head>
+<body>
+	<table>
+		<tr>
+			<th>ID</th>
+			<th>NOME</th>
+			<th>PAGES</th>
+		</tr>
+		
+		<%for(var i=0; i<lista.length; i++){%>
+			<tr>
+				<td><%=lista[i].ID%></td>
+				<td><%=lista[i].DESCRIPTION%></td>
+				<td><%=lista[i].PAGES%></td>
+			</tr>
+		<%}%>
+	</table>
+		
+</body>
+</html>
