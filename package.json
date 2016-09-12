@@ -1,0 +1,29 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "node",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "ejs": "^2.5.2",
+    "express-load": "^1.1.15",
+    "express-validator": "^2.20.8",
+    "mysql": "^2.11.1",
+    "nodemon": "^1.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariouzae/node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariouzae/node/issues"
+  },
+  "homepage": "https://github.com/mariouzae/node#readme"
+}
