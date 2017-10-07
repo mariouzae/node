@@ -17,7 +17,7 @@ module.exports = function(){
 	app.use(expressValidator());
 
 	app.listen(3000, function(){
-	console.log("server running...");
+	console.log("server running on port 3000...");
 	});
 
 	load('routes', {cwd:'app'})

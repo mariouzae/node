@@ -4,13 +4,18 @@
   "description": "node",
   "main": "app.js",
   "dependencies": {
+    "@google-cloud/vision": "^0.12.0",
     "body-parser": "^1.15.2",
-    "express": "^4.14.0",
     "ejs": "^2.5.2",
+    "express": "^4.14.0",
     "express-load": "^1.1.15",
     "express-validator": "^2.20.8",
+    "http": "0.0.0",
+    "mongodb": "^2.2.31",
+    "multer": "^1.3.0",
     "mysql": "^2.11.1",
-    "nodemon": "^1.10.2"
+    "nodemon": "^1.10.2",
+    "soap": "^0.22.0"
   },
   "devDependencies": {},
   "scripts": {
